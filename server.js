@@ -6,6 +6,9 @@ dotenv.config();
 
 const app = express();
 
+const costumeRouter = require("./router");
+app.use('/costume',costumeRouter);
+
 app.get("/ping", (req, res) => {
     try {
         res.status(200).send({ msg: "pong" });
