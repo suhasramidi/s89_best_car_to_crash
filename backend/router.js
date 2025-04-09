@@ -102,7 +102,7 @@ router.put('/safety/:id', async (req, res) => { // Route changed to /safety/:id
   }
 });
 
-router.delete('/safety/:id', async (req, res) => { // Route changed to /safety/:id
+outer.delete('/safety/:id', async (req, res) => { // Route changed to /safety/:id
   try {
     const deletedRating = await SafetyRating.findByIdAndDelete(req.params.id); // Model name changed
 
@@ -118,4 +118,4 @@ router.delete('/safety/:id', async (req, res) => { // Route changed to /safety/:
 });
 
 
-module.exports = router;
+module.exports = router; 
