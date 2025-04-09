@@ -30,3 +30,8 @@ It is a good way to practice user specific data, and lists.
 It allows me to practice data entry, and data retreival.
 It will allow me to practice image storage if that optional feature is added.
 It allows for creative data entry, and user reviews.
+
+
+
+
+# CLOUDFLARE DEPLOYMENT LINK : https://1032a700.s89-best-car-to-crash.pages.dev/
